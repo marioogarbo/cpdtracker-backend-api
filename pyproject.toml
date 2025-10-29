@@ -5,12 +5,24 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "channels>=4.3.1",
+    "django>=5.2.7",
     "django-cors-headers>=4.9.0",
+    "django-filter>=25.2",
+    "django-redis>=6.0.0",
     "djangorestframework>=3.16.1",
     "djangorestframework-simplejwt>=5.5.1",
     "djoser>=2.3.3",
     "dotenv>=0.9.9",
     "gunicorn>=23.0.0",
+    "openai-agents>=0.4.0",
+    "pillow>=12.0.0",
     "psycopg2-binary>=2.9.11",
+    "python-dotenv>=1.1.1",
+    "pytz>=2025.2",
+    "redis[hiredis]>=6.4.0",
+    "shortuuid>=1.0.13",
+    "stripe>=13.0.1",
+    "uvicorn[standard]>=0.38.0",
     "whitenoise>=6.11.0",
 ]
